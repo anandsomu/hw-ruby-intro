@@ -15,7 +15,9 @@ end
 def sum_to_n? arr, n
   # YOUR CODE HERE
   if arr.empty?
-    return true if n == 0
+    #return true if n == 0
+    return false
+    
   else
     arr.combination(2).to_a.each do |pair|
       return true if sum(pair) == n
