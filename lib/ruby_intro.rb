@@ -15,7 +15,7 @@ end
 def sum_to_n? arr, n
   # YOUR CODE HERE
   if arr.empty?
-    #return true if n == 0
+   
     return false
     
   else
@@ -42,7 +42,7 @@ end
 def binary_multiple_of_4? s
   # YOUR CODE HERE
   if s =~ /^[0-1]+$/
-    return s.to_i(2) % 4 == 0 unless s == "0"
+    return s.to_i(2) % 4 == 0 
   end
   false
 end
